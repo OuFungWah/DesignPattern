@@ -1,4 +1,4 @@
-package factory.abstractfactory.computer;
+package factory.abstractfactory;
 
 import factory.abstractfactory.Product;
 

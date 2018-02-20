@@ -1,4 +1,6 @@
-package factory.abstractfactory.computer;
+package factory.abstractfactory.samsung;
+
+import factory.abstractfactory.Computer;
 
 public class GalaxyBook implements Computer {
 
@@ -9,12 +11,12 @@ public class GalaxyBook implements Computer {
 
     @Override
     public void turnOn() {
-        System.out.println();
+        System.out.println("Galaxy Book started...");
     }
 
     @Override
     public void turnOff() {
-
+        System.out.println("Galaxy Book shut down...");
     }
 
 }
