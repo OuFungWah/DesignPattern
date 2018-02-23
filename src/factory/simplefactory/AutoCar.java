@@ -1,5 +1,9 @@
 package factory.simplefactory;
 
+/**
+ *  @author CrazyWah
+ *  实现 Car 类的大众汽车
+ */
 public class AutoCar implements Car{
 
     @Override
